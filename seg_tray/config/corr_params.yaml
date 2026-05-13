@@ -1,0 +1,17 @@
+# config/corr_params.yaml
+corr_nav_node:
+  ros__parameters:
+    # Controller parameters
+    time_step: 25  # in milliseconds
+
+    # Speed parameters
+    max_linear_speed: 1.0   # m/s
+    max_angular_speed: 0.79  # rad/s
+
+    # Vehicle parameters
+    wheel_base: 0.331  # meters  - wheel to wheel distance
+    wheel_radius: 0.097518  # meters
+
+    # corridor parameters
+    corridor_width: 4.6  # meters
+    look_ahead_distance: 1.0  # meters

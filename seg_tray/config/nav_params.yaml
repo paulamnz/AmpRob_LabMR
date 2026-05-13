@@ -1,0 +1,25 @@
+# config/nav_params.yaml
+nav_p2p_node:
+  ros__parameters:
+    # Controller parameters
+    control_gain: 1.0
+    tolerance: 1.0
+    time_step: 25  # in milliseconds
+
+    # Speed parameters
+    max_linear_speed: 1.2   # m/s
+    max_angular_speed: 0.79  # rad/s
+
+    # Vehicle parameters
+    wheel_base: 0.331  # meters  - wheel to wheel distance
+    wheel_radius: 0.097518  # meters
+
+    # List of waypoints (x, y)
+    # Start waypoint ... End waypoint_ return to start 
+    num_waypoints: 7
+    waypoints: [0.0, 0.0, 10.0, 0.0, 10.0, 10.0, -10.0, 10.0, -10.0, -10.0, 10.0, -10.0, 0.0, 0.0]
+    waypoints_names: ["WP1", "WP2", "WP3", "WP4", "WP5", "WP6", "WP7"]
+    # Options
+    loop_waypoints: false      # true = repeat, false = stop at the end
+    # Show markers for waypoints in simulator
+    show_markers: true  # true to show waypoint markers
