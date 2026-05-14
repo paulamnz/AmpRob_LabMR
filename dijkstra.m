@@ -21,15 +21,6 @@ while(fin == 0)
             array_adyac = [array_adyac;l]; %guardamos los nodos a los que puede acceder
         end
     end
-    %1.1: hay que ver si entre los nodos adyacentes se encuentra el nodo final
-    %for o = 1:1:size(array_adyac)
-    %   if array_adyac(o) == destino
-    %        nodos_revisados(k) = [nodo_actual;nodos_a_revisar(array_adyac(o),:)]; %de la misma forma, la estructura es nombre de nodo, coste, nodo del que viene
-    %        k = k+1;
-    %        nodos_a_revisar(array_adyac(o),:) = [];
-    %        nodo_actual = nodos_a_revisar(1,1);
-    %    end
-    %end
 
     %Paso 2: actualizamos los costes de dichos nodos
     for m = 1:1:size(array_adyac)
