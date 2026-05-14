@@ -10,6 +10,7 @@ El repositorio incluye los siguientes paquetes:
 - `seg_tray_msgs`
 
 Ambos paquetes pueden utilizarse en cualquier workspace de ROS 2 copiándolos dentro de la carpeta `src`.
+También incluye cuatro scripts de Matlab (versión R2023b) correspondientes a las prácticas 4, 5, 6 y 7.
 
 ## Compilación
 
